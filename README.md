@@ -1,6 +1,8 @@
 # segmentedview
 
-ios风格的分段控件，类似 UISegmentedControl
+[![Android](https://img.shields.io/badge/jitpack-v1.0.0-green.svg)](https://jitpack.io/#czy1121/segmentedview) 
+
+ios 风格的分段控件，类似 UISegmentedControl
 
 ![segmentedview](screenshot.png)
 
