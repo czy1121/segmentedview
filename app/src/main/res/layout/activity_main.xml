@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="20dp">
+    <com.github.czy1121.view.SegmentedView
+        android:id="@+id/sv1"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginBottom="10dp"
+        app:svCornerRadius="10dp"
+        app:svMainColor="#F44336"
+        app:svStrokeWidth="1dp"
+        app:svSubColor="#ffffff"
+        app:svTexts="One|Two|Three|Four|Five|Six"/>
+
+
+    <com.github.czy1121.view.SegmentedView
+        android:id="@+id/sv2"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginBottom="10dp"
+        app:svCornerRadius="20dp"
+        app:svMainColor="#009688"
+        app:svStrokeWidth="2dp"
+        app:svSubColor="#FFFFFF"
+        app:svTexts="One|Two|Three|Four"/>
+
+    <com.github.czy1121.view.SegmentedView
+        android:id="@+id/sv3"
+        android:layout_width="200dp"
+        android:layout_height="30dp"
+        android:layout_gravity="center"
+        android:layout_marginBottom="10dp"
+        app:svCornerRadius="20dp"
+        app:svMainColor="#9C27B0"
+        app:svStrokeWidth="2dp"
+        app:svSubColor="#FFFFFF"
+        app:svTexts="One|Two|Three"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:orientation="horizontal">
+        <com.github.czy1121.view.SegmentedView
+            android:id="@+id/sv4"
+            android:layout_width="60dp"
+            android:layout_height="30dp"
+            android:layout_gravity="center"
+            android:layout_margin="5dp"
+            app:svCornerRadius="20dp"
+            app:svMainColor="#CDDC39"
+            app:svStrokeWidth="1px"
+            app:svSubColor="#ffffff"
+            app:svTexts="Boom!"/>
+
+        <com.github.czy1121.view.SegmentedView
+            android:id="@+id/sv5"
+            android:layout_width="120dp"
+            android:layout_height="28dp"
+            android:layout_gravity="center"
+            android:layout_margin="10dp"
+            android:textSize="12sp"
+            app:svCornerRadius="6dp"
+            app:svMainColor="#FFFFFF"
+            app:svStrokeWidth="1dp"
+            app:svSubColor="#03A9F4"
+            app:svTexts="消息|电话"/>
+
+        <com.github.czy1121.view.SegmentedView
+            android:id="@+id/sv6"
+            android:layout_width="70dp"
+            android:layout_height="24dp"
+            android:layout_gravity="center"
+            android:layout_margin="5dp"
+            app:svCornerRadius="20dp"
+            app:svMainColor="#03A9F4"
+            app:svStrokeWidth="1px"
+            app:svSubColor="#FFFFFF"
+            app:svTexts="ON|OFF"/>
+
+    </LinearLayout>
+</LinearLayout>
